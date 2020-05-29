@@ -6,6 +6,7 @@ Scenario Outline: Blenders 2 NCR
   Given I put <thing> in a blender,
   When I switch the blender on
   Then it should transform into <other thing>
+  And when I make a change in VSTS it should update
   
 Examples: Amphibians
    | thing         | other thing |
