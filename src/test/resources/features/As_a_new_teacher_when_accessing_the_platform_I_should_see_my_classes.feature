@@ -21,3 +21,4 @@ Feature:As a new teacher when accessing the platform I should see my classes
     When I access the platform
     Then I should see my classes
     And I do something else
+    And I do something else new
