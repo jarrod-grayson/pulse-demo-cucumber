@@ -9,3 +9,9 @@ Feature: Kid account access
     Then i should see my account balance
     Then I change an existing Scenario
     And I make a change again - 08.27.2020
+    
+ Scenario: New Test Scenario April 19
+   Scenario Desction: Eating Cucumbers
+   Given I have 10 cucumbers
+   When I eat 8 cucumbers
+   Then I should be left with 2
