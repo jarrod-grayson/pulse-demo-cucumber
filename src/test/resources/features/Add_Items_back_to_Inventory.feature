@@ -22,7 +22,7 @@ Scenario Outline: Blenders
     Given I put <thing> in a blender,
     When I switch the blender on
     Then it should transform into <other thing>
-    And I make a chance in my IDE - RBC
+    And I make a chance in my IDE
 
 Examples: Amphibians
    | thing         | other thing |
